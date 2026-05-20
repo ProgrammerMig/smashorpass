@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+
+
+
+body{
+    font-family: "Roboto Mono", monospace;
+    background-color: rgb(209, 146, 146);
+    justify-items: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+}
+
+.title{
+    font-family: "Iceberg", sans-serif;
+    font-size: 30pt;
+}
+
+.title-2{
+    font-family: "Iceberg", sans-serif;
+    font-size: 25pt;
+}
+
+.title-3{
+    font-family: "Comic Relief", system-ui;
+    font-size: 25pt;
+}
+
+#title{
+    background-color: #FAF9F6;
+    box-shadow: 5px 5px 10px 5px #00000050;
+    justify-self: center;
+    border-radius: 10px;
+    width: 66%;
+}
+
+.card{
+    background-color: #FAF9F6;
+    box-shadow: 5px 5px 10px 5px #00000050;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn{
+    font-family: "Roboto Mono", monospace;
+    font-style: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+
+#pass-txt{
+    font-family: "Science Gothic", sans-serif;
+    font-weight: 800;
+    color: rgb(150, 68, 68);
+}
+
+#smash-txt{
+    font-family: "Science Gothic", sans-serif;
+    font-weight: 800;
+    color: rgb(87, 150, 68);
+}
+
+.opaque{
+    font-style: italic;
+    color: rgb(102, 102, 102);
+}
+
+
+.pass{
+    background-color: rgb(150, 68, 68);
+    transition: .1s ease-in-out;
+}
+
+.pass:hover{
+    background-color: rgb(185, 120, 120);
+    transform: scale(1.04);
+}
+
+.smash{
+    background-color: rgb(87, 150, 68);
+    transition: .1s ease-in-out;
+}
+
+.smash:hover{
+    background-color: rgb(134, 185, 120);
+    transform: scale(1.04);
+}
+
+#char{
+    width:225px;
+    height:225px;
+    border-radius: 15px;
+
+    transition: .2s ease-in-out;
+}
+
+#char:hover{
+    width:225px;
+    height:225px;
+    border-radius: 15px;
+    transform: scale(1.5);
+}
+
+.mini-title{
+    font-size: 10pt;
+    font-weight: 800;
+}
+
+#veredito-final{
+    background-color: #FAF9F6;
+    box-shadow: 5px 5px 10px 5px #00000050;
+    padding: 15px;
+    justify-self: center;
+    border-radius: 10px;
+    width: 64%;
+    font-family: "Comic Relief", system-ui;
+    font-size: 25pt;
+}
+
+#color1{
+    color: rgb(150, 68, 68);
+}
+
+#color2{
+    color: rgb(179, 130, 52);
+}
+
+#color3{
+    color: rgb(134, 185, 120)
+}
+
+#color4{
+    color: rgb(157, 0, 255)
+}

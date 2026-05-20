@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMASH OR PASS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title" id="title"><span id="smash-txt">SMASH</span> OR <span id="pass-txt">PASS</span></h1>
+        <h3></h3>
+        
+        <div class="cards">
+            <!-- Informações como nome, série, professor, etc... -->
+            <div class="info card">
+                <p class="title-2">INFORMAÇÕES DO TRABALHO</p>
+                <p><b>Feito por:</b> Miguel Thomas S. Cavalheiro</p>
+                <p><b>Escola:</b> ETEC Antônio Furlan</p>
+                <p><b>Professora:</b> Débora Paulo</p>
+                <p><b>Curso:</b> 2° Informática; turma B</p>
+                
+            </div>
+
+            <!-- Card basico aonde o jogo acontece. -->
+            <div class="card">
+                <p id="passes">Passes disponíveis: </p>
+                <p id="char_left">Personagens restantes: </p>
+                <img src="assets/10.png" alt="Chosen character" srcset="" id="char">
+                <p id="char_name">Character name</p>
+                <button class="smash btn" onclick="smash()">SMASH</button>
+                <button class="pass btn" onclick="pass()">PASS</button>
+            </div>
+
+            <!-- Card que explica como jogar, instruções básicas-->
+            <div class="instructions card">
+                <p class="title-2">Como jogar?</p>
+                <p><b>Smash or Pass</b> é um jogo bem simple. Aparecerá um personagem em sua tela, e você escolhe entre duas opções... <span id="smash-txt">SMASH</span> <span class="opaque">(ficar com esse personagem romanticamente)</span>, ou <span id="pass-txt">PASS</span> <span class="opaque">(você NÃO fica com esse personagem)</span>.</p>
+                <p>Porém, nessa edição feita por mim, você possui um limite de <span id="pass-txt">PASSES</span> que pode dar... então escolha com cuidado quais personagens quer pular ou não!</p>
+                <p>Boa jogatina! :D</p>
+            </div>
+        </div>
+
+        <div id="veredito-final">
+            VEREDITO FINAL.
+        </div>
+    </div>
+</body>
+</html>
