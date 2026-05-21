@@ -49,11 +49,11 @@ function game(action){
         input_char.innerHTML = `<span id='smash-txt'>SMASH</span> or <span id='pass-txt'>PASS</span> finalizado!`
 
         char_txt.innerHTML = `<span class="mini-title">Foram <span id="smash-txt">${total_smashes} SMASHES</span> e <span id="pass-txt">${total_passes} PASSES</span> no total..</span>`
-        if(total_passes <= 2){
+        if(total_passes == 2){
             final_veredict.innerHTML= `<span id="color1">Talvez você goste da maioria dos personagens da lista...</span>`
-        } else if(total_passes <= 4){
+        } else if(total_passes <= 3){
             final_veredict.innerHTML= `<span id="color2">Você tem bom gosto, apenas isso, parabéns.</span>`
-        } else if(total_passes === 5){
+        } else if(total_passes <= 5){
             final_veredict.innerHTML= `<span id="color3">Você pensa sabiamente antes de agir. Parabéns.</span>`
         } else {
             final_veredict.innerHTML= `<span id="color4">Precoce final boss:</span>`
